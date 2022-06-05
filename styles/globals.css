@@ -1,0 +1,16 @@
+
+/* tailwindcss global utilities */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom additions */
+@layer base {
+    html{
+        scroll-behavior: smooth
+    }
+    body {
+       @apply bg-tertiary-100 text-gray-100
+    }
+}
